@@ -1,0 +1,67 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+int main() {
+    float a, b, x;
+    printf("Wprowadz a i b: ");
+    scanf("%f%f", &a, &b);
+
+    if(a == 0) {
+        if(b == 0){
+                printf("brak rozwiazan \n");
+    } else {
+        printf("kazdy x jest rowny b \n");
+    }
+    } else {
+        printf("x = %.2f\n", -b/a);
+    }
+
+    return 0;
+}
+
+
+
+
+========================================================
+
+#include <stdio.h>
+#include <stdlib.h>
+
+int main ()
+{
+    int columns;
+    int rows;
+    int num1, num2, num3, num4, num5, num6, num7, num8, num9, num10;
+    printf (" Wprowadz 1 liczbe: ");
+    scanf (" %d", &num1);
+    printf (" Wprowadz 2 liczbe: ");
+    scanf (" %d", &num2);
+    printf (" Wprowadz 3 liczbe: ");
+    scanf (" %d", &num3);
+    printf (" Wprowadz 4 liczbe: ");
+    scanf (" %d", &num4);
+    printf (" Wprowadz 5 liczbe: ");
+    scanf (" %d", &num5);
+    printf (" Wprowadz 6 liczbe: ");
+    scanf (" %d", &num6);
+    printf (" Wprowadz 7 liczbe: ");
+    scanf (" %d", &num7);
+    printf (" Wprowadz 8 liczbe: ");
+    scanf (" %d", &num8);
+    printf (" Wprowadz 9 liczbe: ");
+    scanf (" %d", &num9);
+    printf (" Wprowadz 10 liczbe: ");
+    scanf (" %d", &num10);
+
+    for(rows=1; rows<=10; rows++){
+
+        for(columns=1; columns<=2; columns++){
+            printf("%d ", columns);
+        }
+
+        printf("\n");
+    }
+
+     return 0;
+
+}
